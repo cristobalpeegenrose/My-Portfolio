@@ -1,0 +1,90 @@
+main {
+
+	/*background-image: url(../images/bulb.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'El Messiri', sans-serif;
+	height: 850px;
+	background-position: center top; 
+	width: 100%;
+
+}
+.container {
+	width: 80%;
+}
+
+#landingpage {
+/*	background-image: url(../images/d2.jpg)*/;
+	background-color: #141623;
+	text-align: center;
+}
+
+div.containermain h2 {
+	color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+div.containerportfolio h2 {
+	color: black;
+	text-align: center;
+}
+
+div.containercontact{
+	text-align: center;
+}
+
+#aboutme {
+	color: black;
+	text-align: center;
+/*	background-image: url(../images/d3.jpg);*/
+	background-color: #634E96;
+}
+
+#me {
+	height: 200px; 
+	width: 200px;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	margin-top: 50px;
+}
+
+#portfolio {
+	background-color: #C48027;
+	height: 600px;
+}
+
+#mainfooter {
+
+	background-color: #68665D;
+	color: black;
+	height: 300px;
+	font-family: 'El Messiri', sans-serif;
+
+}
+
+.card {
+	margin-top: 20px;
+	float: left;
+/*	height: 500px;*/
+	width: 400px;
+	text-align: center;
+	background-color: #C48027;
+
+
+}
+
+
+img {
+
+	height: 300px;
+
+
+}
+
+

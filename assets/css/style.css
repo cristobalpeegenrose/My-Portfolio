@@ -5,7 +5,9 @@ body{
 	background-repeat: no-repeat;
 	font-family: 'El Messiri', sans-serif;
 }
-
+.container {
+	width: 80%;
+}
 h1{
 	margin-bottom: 0;
 	background-color: #333;
@@ -18,6 +20,54 @@ h2{
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	color: white;
+}
+
+
+header#mainHeader {
+	background-color: #909090;
+	min-height: 10vh;
+	font-family: 'Work Sans', sans-serif;
+	position: fixed;
+}
+
+
+
+header#mainHeader {
+	background-color: #909090;
+	min-height: 10vh;
+	font-family: 'Work Sans', sans-serif;
+}
+
+header#mainHeader div{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+header#mainHeader > div >h2 {
+	line-height: 10vh;
+	margin-left: 15px;
+}
+
+header#mainHeader > div >h2 a{
+	color:black; 
+	text-decoration: none;
+}
+
+header#mainHeader > div:last-child > ul {
+	list-style: none;
+	text-align: right;
+}
+
+header#mainHeader > div:last-child > ul > li {
+	display: inline;
+	line-height: 10vh;
+	margin-right: 15px;
+}
+
+header#mainHeader > div:last-child > ul > li > a {
+	color:black;
+	text-decoration: none;
 }
 
 #me {
@@ -35,18 +85,24 @@ h2{
 		background-color: #333;
 }
 
-.container{
-	width: 500px;
+.maincontainer{
 	margin: 0 auto;
-	text-align: center
+	text-align: center;
+	height: 600px;
 }
 
 .about{
 	color: white;
-	width: 100%;
 	font-size: 18px;
 	line-height: 1.5;
 	background-color: #333;
-	
 
 }
+
+img {
+
+	height: 300px;
+	width: 33%;
+
+}
+
