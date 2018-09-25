@@ -1,32 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Palanquin', sans-serif;
+}
+
+
+
 main {
 
 	/*background-image: url(../images/bulb.jpg);*/
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: 'El Messiri', sans-serif;
+
 	height: 850px;
 	background-position: center top; 
 	width: 100%;
+	
+}
+
+.header {
+	background-color: #030B21;
 
 }
+
+.navbar-toggler-icon {
+	color: #66FCF1;
+}
+
+#navbarContent>ul>li>a {
+	color: #66FCF1;
+	background-color: #0B0C10;
+	margin: 5px;
+	text-align: center;
+	border: 1px solid #C5C6C7;
+}
+
+
+.navbar>.navbar-brand {
+
+	background-color: #0B0C10;
+	margin: 5px;
+	text-align: center;
+	border: 1px solid #C5C6C7;
+}
+
+.navbar {
+	background-color: #0B0C10;
+}
+
 .container {
 	width: 80%;
 }
 
 #landingpage {
-/*	background-image: url(../images/d2.jpg)*/;
-	background-color: #141623;
+	background-size: cover;
+    background-image: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+	background-color: #041133;
 	text-align: center;
 }
 
+#landingpage>.containermain >h2>p>.btn-trans {
+	border: solid 1px #66FCF1;
+	color: #C5C6C7;
+}
+
+#landingpage>.containermain >h2>p>.btn-trans:hover {
+	background-color: #66FCF1;
+	border: solid 1px #66FCF1;
+	color: #0B0C10;
+}
+
+
+#landingpage {
+/*	background-image: url(../images/background1.jpg);*/
+	background-color: #0B0C10;
+}
+
+
+
 div.containermain h2 {
-	color: white;
+	color: #66FCF1;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%);
+   
+}
+
+ div.containermain h2 .name, h2 { 
+ 	font-family: 'Notable', sans-serif;
+ }
 
 div.containerportfolio h2 {
 	color: black;
@@ -38,10 +106,10 @@ div.containercontact{
 }
 
 #aboutme {
-	color: black;
+	color: #45A29E;
 	text-align: center;
 /*	background-image: url(../images/d3.jpg);*/
-	background-color: #634E96;
+	background-color: #1F2833;
 }
 
 #me {
@@ -55,36 +123,66 @@ div.containercontact{
 }
 
 #portfolio {
-	background-color: #C48027;
+	background-color: #45A29E;
 	height: 600px;
+	color: #1F2833;
+	background-size: cover;
+    background-image: url(../images/cyan.jpg);
+	background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+#portfolio>.containerportfolio>.card>.card-body>button {
+	border: solid 1px #66FCF1;
+	background-color: #1F2833;
+}
+
+#portfolio>.containerportfolio>.card>.card-body>button:hover {
+	background-color: #66FCF1;
+	border: solid 1px #66FCF1;
+	color: #0B0C10;
 }
 
 #mainfooter {
-
-	background-color: #68665D;
-	color: black;
+	background-size: cover;
+    background-image: url(../images/contact.jpg);
+	background-repeat: no-repeat;
+    background-position: center top;
+	background-color: #C5C6C7;
+	color: #66FCF1;
 	height: 300px;
-	font-family: 'El Messiri', sans-serif;
 
 }
 
-.card {
+#portfolio>.containerportfolio>.card {
 	margin-top: 20px;
 	float: left;
-/*	height: 500px;*/
+	height: 310px;
 	width: 400px;
 	text-align: center;
-	background-color: #C48027;
+	background-color: #66FCF1;
+}
 
+.card>img{
+	background-color: #0B0C10;
 
 }
 
+.section-title {
+	font-family: 'Notable', sans-serif;
+}
 
 img {
-
+	width: 400px;
 	height: 300px;
-
 
 }
 
+#aboutme>.row>div>p, #aboutme>.row>div>div>div>p{
+	color: #C5C6C7;
+}
 
+#aboutme>.row>div>div>div>.progress>.progress-bar{
+	background-color: #45A29E; 
+}
