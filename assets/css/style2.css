@@ -113,7 +113,7 @@ div.containercontact{
 }
 
 #me {
-	height: 200px; 
+/*	height: 200px; */
 	width: 200px;
 	border-radius: 50%;
 	border-style: solid;
@@ -124,7 +124,8 @@ div.containercontact{
 
 #portfolio {
 	background-color: #45A29E;
-	height: 600px;
+	/*height: 600px;*/
+	height: auto;
 	color: #1F2833;
 	background-size: cover;
     background-image: url(../images/cyan.jpg);
@@ -151,8 +152,8 @@ div.containercontact{
     background-position: center top;
 	background-color: #C5C6C7;
 	color: #66FCF1;
-	height: 300px;
-
+	/*height: 300px;
+*/
 }
 
 #portfolio>.containerportfolio>.card {
@@ -175,7 +176,7 @@ div.containercontact{
 
 img {
 	width: 400px;
-	height: 300px;
+/*	height: 300px;*/
 
 }
 
